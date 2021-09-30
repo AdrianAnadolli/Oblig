@@ -1,0 +1,97 @@
+html{
+  background: url(pizza.jpg);
+
+  background-repeat: no-repeat;
+  background-size:auto;
+  background-attachment: fixed;
+  color:#fffafa;
+  margin-top: 2rem;
+  height: 100%;
+  overflow-x: hidden
+}
+
+
+.btn {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #e3e3e3; /* Blue background */
+    border: 4px solid; /* Remove borders */
+    border-color: black;
+    color:black;
+    text-align: center;
+    font-size: 24px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */    
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: normal;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: #ffd933;
+  }
+
+  h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    font: bold;
+    margin-bottom: 10px;
+    
+  }
+  footer{
+    
+  }
+
+  p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 0;
+    font-size: 1rem;
+    max-width: 75ch;
+  }
+
+  h2{
+    font-size: 1.4rem;
+  }
+  h4 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  header{
+
+    padding: 0.5rem;
+    position:absolute;
+    margin-bottom: 0rem;
+    width:100%;
+    top:0rem;
+    left: 0rem;
+    
+    background-color: #233142;
+    position: fixed;
+    
+
+  }
+  :focus{
+    outline: 3px solid #ffd933;
+    align-self: auto;
+    outline-style: groove;
+
+  }
+  a{
+    outline: none;
+  }
+  a:focus{
+    outline: none;
+   }
+   abbr{
+    border-bottom: none !important;
+    cursor: inherit !important;
+    text-decoration: none !important;
+   }
+
+   img {
+     max-width: 100%;
+     height: auto;
+     width: auto;
+     min-width: 100%;
+     min-width: 100%;
+   }
